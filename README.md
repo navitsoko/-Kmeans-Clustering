@@ -15,7 +15,7 @@ cluster’s members.
 # Algorithm
 1. Initialize centroids as first k datapoints: µk = xk, ∀k ∈ K.
 2. repeat:
-3. Assign every xi to the closest cluster k: argmin<k>d(xi, µk), ∀k 1 ≤ k ≤ K.
+3. Assign every xi to the closest cluster k: argmin_k d(xi, µk), ∀k 1 ≤ k ≤ K.
 4. Update the centroids: µk = 1/|k|* sum(xi : xi∈k ).
 5. until convergence: (∆µk < epsilon) OR (iteration_number = iter).
 
