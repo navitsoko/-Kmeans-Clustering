@@ -15,7 +15,7 @@ cluster’s members.
 # Algorithm
 1. Initialize centroids as first k datapoints: µk = xk, ∀k ∈ K.
 2. repeat:
-3. Assign every xi to the closest cluster k: argmin_k d(xi, µk), ∀k 1 ≤ k ≤ K.
+3. Assign every xi to the closest cluster k: argmin <k> d(xi, µk), ∀k 1 ≤ k ≤ K.
 4. Update the centroids: µk = 1/|k|* sum(xi : xi∈k ).
 5. until convergence: (∆µk < epsilon) OR (iteration_number = iter).
 
@@ -27,11 +27,11 @@ cluster’s members.
 
 # C
 compile with the following command:
- gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans
- Running example : ./kmeans 3 100 <input_data.txt     // k=3, iter=100
+ `gcc -ansi -Wall -Wextra -Werror -pedantic-errors kmeans.c -o kmeans`
+ Running example : `./kmeans 3 100 <input_data.txt`     // k=3, iter=100
 
  # Python
- Running example:  kmeans.py 3 100 input_data.txt .
+ Running example:  `kmeans.py 3 100 input_data.txt` .
  רו
  רו
    
