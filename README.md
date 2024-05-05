@@ -31,8 +31,7 @@ compile with the following command:
  Running example : `./kmeans 3 100 <input_data.txt`     // k=3, iter=100
 
  # Python
- Running example:  `python3 kmeans.py 3 100 input_data.txt` 
+ Running example:  `python3 kmeans.py 3 100 input_data.txt`.
  רו
- רו
-   
+ ר
 
