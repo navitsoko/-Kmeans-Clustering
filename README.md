@@ -32,6 +32,4 @@ compile with the following command:
 
  # Python
  Running example:  `python3 kmeans.py 3 100 input_data.txt`.
- רו
  ר
-
